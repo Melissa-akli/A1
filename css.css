@@ -6,8 +6,8 @@
      box-sizing: border-box;
      color: black;
      }
-div { width: 100% ;}
 
+ 
 h1{ color: rgb(14, 1, 1);
     font-family: sans-serif;
     text-transform: capitalize;
@@ -15,7 +15,7 @@ h1{ color: rgb(14, 1, 1);
 
 section {background-color: rgba(90, 87, 87, 0.062);
     margin: 10px;
-    width: 30%;
+    width:30% ;
     height:auto;
     border: 2px solid black; }
         
@@ -38,13 +38,20 @@ section p {position: relative;
     article{padding: 20px;
      margin-top: 21px;}
 
-
+ 
+.row{width: 100%;}
     @media (min-width :992px) {
-        section {width: 30%; } p{width: 30%;}
+       
+       section{width: 30%;}
+       p{width: 30%;}
+      
     }
     @media (min-width :768px) and (max-width:991px) {
-        section {width: 45%; } p{width:30%} .m{width: 95%} .m p{width: 14.6%}
+     
+      section {width: 45%; } p{width:30%;} .m{width: 94%;} .m p{width: 15%;}
     }
     @media (max-width :767px) {
+       
         section {width: 95%; } p{width:40%}
     }
+

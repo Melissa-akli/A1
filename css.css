@@ -1,4 +1,4 @@
-body{background-color: rgba(255, 249, 250, 0.034);
+ body{background-color: rgba(255, 249, 250, 0.034);
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      text-align: center;
      padding: 10px;
@@ -33,14 +33,15 @@ section p {position: relative;
     .b{background-color: rgba(240, 14, 63, 0.959);}
     .c{background-color: rgba(230, 22, 202, 0.945);}
 
-    article{padding: 20px;}
+    article{padding: 20px;
+     margin-top: 21px;}
 
 
     @media (min-width :992px) {
-        section {width: 30%; } p{width: 30%;}
+        section {width: 31.32%; } p{width: 30%;}
     }
     @media (min-width :768px) and (max-width:991px) {
-        section {width: 45%; } p{width:30%}
+        section {width: 46.9%; } p{width:30%} .m{width: 97%}
     }
     @media (max-width :767px) {
         section {width: 95%; } p{width:40%}

@@ -41,7 +41,7 @@ section p {position: relative;
         section {width: 31.32%; } p{width: 30%;}
     }
     @media (min-width :768px) and (max-width:991px) {
-        section {width: 44%; } p{width:30%} .m{width: 94%} .m p{width: 14.6%}
+        section {width: 42%; } p{width:30%} .m{width: 93%} .m p{width: 14.6%}
     }
     @media (max-width :767px) {
         section {width: 95%; } p{width:40%}
